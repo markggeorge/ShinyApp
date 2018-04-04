@@ -1,7 +1,7 @@
 # server.R
 library(shiny)
 source("helpers.R")
-countries <- readRDS("data/counties.rds")
+counties <- readRDS("data/counties.rds")
 library(maps)
 library(mapproj)
 
